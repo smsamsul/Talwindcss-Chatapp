@@ -34,20 +34,26 @@ const handlleClick = () => {
 
  }
   return (
-    <div className='max-w-full h-screen bg-red-500 flex justify-center items-center'>
-        <div className='w-[30%] bg-white p-[50px]  '>
-       
-     <h2>Forgot Passward </h2>
-     <br />
-    <input onChange={(e)=> setvalue(e.target.value)} className=' px-[90px] py-4 border border-black rounded-sm' 
-     type="text" placeholder='Email Addres' />
 
-     <button  onClick={handlleClick} className='py-5 px-8 bg-[#086FA4] 
-       mt-5 text-white rounded-[15px]'>Submit</button>
-     
-        </div>
-    
-    </div> 
+    <div className='max-w-full min-h-screen bg-red-500 flex justify-center items-center'>
+  <div className='w-full sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 bg-white p-8 sm:p-10 lg:p-12 rounded-lg'>
+    <h2 className='text-xl md:text-2xl lg:text-3xl font-bold mb-6'>Forgot Password</h2>
+    <input
+      onChange={(e) => setvalue(e.target.value)}
+      className='input-field mb-6 w-full lg:w-[75%] py-4 border border-black rounded-sm'
+      type="text"
+      placeholder='Email Address'
+    />
+    <button
+      onClick={handlleClick}
+      className='btn-submit bg-[#086FA4] text-white py-3 px-6 rounded-lg'
+    >
+      Submit
+    </button>
+  </div>
+</div>
+
+
   )
 }
 
