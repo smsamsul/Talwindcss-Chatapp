@@ -97,7 +97,7 @@ const handlleChange = (e) => {
 
   <p>Free register and you can enjoy it</p>
 
-  <div className='w-full md:w-[38%] lg:w-[20%] mx-auto'>
+  <div className='w-full md:w-[38%] lg:w-[23%] mx-auto'>
   <input onChange={handlleChange} className='px-[54px] sm:px-[90px] mt-10 py-4 border border-black' 
   type="text" placeholder='Email Addres' name='email' value={regdata.email} />
 
@@ -111,7 +111,7 @@ const handlleChange = (e) => {
 
  
 
-  <div className='w-full md:w-[38%] lg:w-[20%] mx-auto'>
+  <div className='w-full md:w-[38%] lg:w-[23%] mx-auto'>
 
   <input onChange={handlleChange} className=' px-[54px] sm:px-[90px] mt-10 py-4 border border-black' 
   type="text" placeholder='your name' name='name' value={regdata.name} />
@@ -124,7 +124,7 @@ const handlleChange = (e) => {
 
    
 
-<div className='relative  w-full md:w-[38%] lg:w-[20%] mx-auto'>
+<div className='relative  w-full md:w-[38%] lg:w-[23%] mx-auto'>
 <input onChange={handlleChange} className=' px-[54px] sm:px-[90px]  mt-10 py-4 border border-black ' 
  type={openeye? "text" :"password" } placeholder='Password' autoComplete="new-password"  
  name='Password' value={regdata.Password} />
